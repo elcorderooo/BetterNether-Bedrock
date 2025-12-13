@@ -4,6 +4,6 @@ system.beforeEvents.startup.subscribe(e => {
 });
 system.runInterval(() => {
     for (const player of world.getAllPlayers()) {
-        player.applyImpulse({ x: 0, y: 1, z: 0 });
+        player.applyImpulse({ x: 0, y: 0, z: 0 });
     }
 });
